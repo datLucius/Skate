@@ -1,0 +1,14 @@
+.circleButtonDot {
+    opacity: 0;
+    height: 10px;
+    width: 10px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: $skatered;
+    border-radius: 100%;
+    transition: opacity .2s ease;
+  }
+
+.circleButtonDot:hover {
+  opacity: 1;
+}

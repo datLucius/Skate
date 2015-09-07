@@ -1,0 +1,109 @@
+.social {
+  float: right;
+  }
+
+  .subscribe {
+    float: left;
+  }
+
+  .subscribeText {
+    width: 100px;
+    height: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style-type: none;
+    height: 60px;
+    line-height: 60px;
+    opacity: 0.7;
+    transition: opacity .2s ease;
+  }
+
+  .subscribeText:hover {
+      opacity: 1;
+  }
+
+
+  .middleDot {
+    list-style-type: none;
+    height: 60px;
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    display: table;
+    position: relative;
+    opacity: 0.7;
+  }
+
+  .smallDot {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: white;
+  float: left;
+  top: 26px;
+  position:absolute;
+  padding: 0;
+  display: table-cell;
+}
+
+  .dotDivider {
+    list-style-type: none;
+    transform: rotate(90deg);
+    color: white;
+    float: right;
+    height: 60px;
+    font-size: 30px;
+
+  }
+
+  .shareButtonBox {
+    width: 260px;
+    height: 60px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .smButton {
+    width: 60px;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+    box-shadow: 0px 3px rgba(255,255,255,0.4);
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    transition: opacity .2s ease;
+  }
+
+  .smButton:nth-child(2) {
+    background-color: orange;
+  }
+  .smButton:nth-child(3) {
+    background-color: skyblue;
+
+  }
+  .smButton:nth-child(4) {
+    background-color: red;
+  }
+  .smButton:hover {
+    opacity: 1;
+  }
+
+
+.fa {
+    color: white;
+    padding: 0;
+    margin: 0 auto;
+  }
